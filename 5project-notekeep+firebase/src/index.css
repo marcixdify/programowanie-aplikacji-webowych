@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: "Nunito";
+
+}
+
+
+.container-for-all {
+    border: 2px solid #262626;
+    border-radius: 5px;
+    width: 600px;
+    background-color: #ffffff22;
+    display: grid;
+    margin: 0 auto;
+    width: fit-content;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.new-text {
+    display: inline-flex;
+}
+
+.input-box {
+    margin: 0 auto;
+    width: fit-content;
+
+}
+
+.del-btn {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .del-btn:hover {opacity: 1}
+
+  .btn-add {
+    display: grid;
+    margin: 0 auto;
+    width: 30%;
+    padding: 10px;
+    background-color: #0d9424;
+    border: none;
+    color: white;
+
+  font-size: 16px;
+  opacity: 0.6;
+  transition: 0.3s;
+
+  text-decoration: none;
+  cursor: pointer;
+  }
+  .btn-add:hover {opacity: 1}
+
+  .input{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px;
+    border: 2px solid #99ccff;
+  }
